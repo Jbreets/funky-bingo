@@ -1,0 +1,43 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-activate.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/license.txt
+/readme.html
+/index.php
+
+# Ignore temporary files
+/tmp/
+
+# Ignore sensitive files
+wp-config.php
+.env
+
+# Ignore uploads
+/wp-content/uploads/
+
+# Ignore all plugins (except custom ones)
+/wp-content/plugins/*
+!/wp-content/plugins/custom-plugin/
+
+# Ignore all themes (except custom ones)
+/wp-content/themes/*
+!/wp-content/themes/custom-theme/
+
+# Ignore development files
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+/package-lock.json
+/composer.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
